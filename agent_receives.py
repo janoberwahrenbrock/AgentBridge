@@ -1,7 +1,7 @@
 from typing import Dict, Type
 from pydantic import BaseModel
-import asyncio
-from mediator import Mediator
+
+from .mediator import Mediator
 
 class AgentReceives:
     """

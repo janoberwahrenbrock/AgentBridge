@@ -1,7 +1,8 @@
 import asyncio
 import pytest
 from pydantic import BaseModel
-from mediator import Mediator
+
+from .mediator import Mediator
 
 
 ### Pydantic-Modelle nach dem neuen Schema

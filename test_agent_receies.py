@@ -1,7 +1,8 @@
 import asyncio
 import pytest
 from pydantic import BaseModel
-from agent_receives import AgentReceives
+
+from .agent_receives import AgentReceives
 
 
 # Definiere Pydantic-Modelle.

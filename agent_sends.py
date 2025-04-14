@@ -1,6 +1,7 @@
 from typing import Dict, Type
 from pydantic import BaseModel
-from mediator import Mediator
+
+from .mediator import Mediator
 
 class AgentSends:
     """

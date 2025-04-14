@@ -1,7 +1,8 @@
 import asyncio
 import pytest
 from pydantic import BaseModel
-from agent_sends import AgentSends
+
+from .agent_sends import AgentSends
 
 # Definiere Pydantic-Modelle. Das Attribut __test__ = False verhindert, dass pytest diese
 # Klassen fälschlicherweise als Testklassen sammelt.
